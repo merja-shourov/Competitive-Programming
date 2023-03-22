@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
      char value;
      printf("Enter anyhing: ");
@@ -18,4 +18,5 @@ int main(void)
      {
           printf("%c is special character\n", value);
      }
+     return 0;
 }
