@@ -1,5 +1,6 @@
 /**
- * QEUSTION: Write a program to display all the letters of the alphabet (a-z). Use two for loops: the 1st one will print all letters in small letters and the 2nd one will print them in capital letters ?
+ * QEUSTION: Write a program to display all the letters of the alphabet (a-z). 
+ * Use two for loops: the 1st one will print all letters in small letters and the 2nd one will print them in capital letters ?
  * 
  * INPUT: NULL
  * 
