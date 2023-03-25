@@ -1,13 +1,13 @@
 /**
- * Question : Write	C Program to read two arrays from user, add them, and then output their sum ?
+ * Question : Write a program reads two arrays from user and then output their product ?
  * 
  * Sample Input : 
- *   Enter array size: 4
- *   Enter first arrey's value: 4 5 6 7
- *   Enter second arrey's value: 1 2 3 4
+ *   Enter array size: 2
+ *   Enter first arrey's value: 3 4
+ *   Enter second arrey's value: 2 3
  * 
  * Sample Output: 
- *   Sum of arreys: 5 7 9 11
+ *   Product of arreys: 6 12
  */
 
 #include<stdio.h>
@@ -33,11 +33,11 @@ int main(){
 
      // sum of arreys
      for( i=0; i<n; i++ ){
-          sum_arr[i] = first_arr[i] + second_arr[i];
+          sum_arr[i] = first_arr[i] * second_arr[i];
      }
 
 
-     printf("Sum of arreys: ");
+     printf("Product of arreys: ");
      for( i=0; i<n; i++ ){
           printf("%d ", sum_arr[i]);
      }
