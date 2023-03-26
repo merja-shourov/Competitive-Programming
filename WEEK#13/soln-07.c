@@ -3,13 +3,13 @@
      prints the first and last index in which that value appears?
 
      sample input: 
-          Enter array size:
-          Enter array's value: 
-          Enter array's value for search index: 
+          Enter array size: 5
+          Enter array's value: 5 4 6 7 4 
+          Enter array's value for search index:  4
 
      sample output:
-          first index: 
-          last index: 
+          first index: 1
+          last index: 4
 */
 #include<stdio.h>
 
