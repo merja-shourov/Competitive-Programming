@@ -1,5 +1,6 @@
 /*
-     Qeustion-09: Write a program that prints all the indexes in which a search key appears ?
+     Qeustion-08: Write a program that prints ALL indexes in which the smallest value of array is present
+ ?
 
      sample input: 
           Enter array size: 5
