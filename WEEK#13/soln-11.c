@@ -3,11 +3,11 @@
  * 
  *  Sample Input: 
  *   Enter array size: 5
- *   Enter arrray's value: 
- *  Enter array's value for searc inde: 
+ *   Enter arrray's value: 5 6 7 5 7
+ *  Enter array's value for searc inde: 7
  * 
  * Sample Output: 
- *   
+ *   After deleting search key value, New array: 5 6 5 7
  * 
  */
 
