@@ -1,5 +1,3 @@
-
-
 /*
      Question: Write a C program that counts the number of vowels in an input string ?
 
@@ -7,8 +5,7 @@
           Write a sentence: Dhaka is addicted to “Cha”
 
      Sapmple Output: 
-          Nuumber of vowels: 8
-       
+          Nuumber of vowels: 8 
 
 */
 
