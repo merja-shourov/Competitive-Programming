@@ -1,13 +1,13 @@
 /**
- * Question : Write a program that prints the no. of odd & no. of even numbers in an array
+ * Question : Write a program that prints the no. of odd & no. of even numbers in an array ?
  * 
  * Sample Input : 
  *   Enter array size: 5
  *   Enter arrey's value: 5 6 7 8 9 10
  * 
  * Sample Output: 
- *  No of even number: 3
- * No. of odd number:  2
+ *  No. of even number: 3
+ *  No. of odd number:  2
  */
 
 #include<stdio.h>

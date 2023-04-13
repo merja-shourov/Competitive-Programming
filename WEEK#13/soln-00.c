@@ -1,5 +1,5 @@
 /**
- * Question : C Program that prints the odd & the even numbers in an array separately
+ * Question : C Program that prints the odd & the even numbers in an array separately ?
  * 
  * Sample Input : 
  *   enter array size: 5
