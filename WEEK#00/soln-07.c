@@ -7,7 +7,8 @@ Sample Input:
      Enter value of b: 20
 
 Sample Output:
-     After swapint a = 20 b = 10
+     After swaping 
+     a = 20 b = 10
 
  */
 
@@ -25,7 +26,7 @@ int main(){
      a = b;
      b = temp;
 
-     printf("After swapint a = %d b = %d\n", a, b);
+     printf("After swaping \na = %d b = %d\n", a, b);
 
      return 0;
 }
