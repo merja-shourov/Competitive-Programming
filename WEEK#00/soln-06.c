@@ -1,5 +1,5 @@
 /*
-Qeustion-03: 
+Qeustion-06: 
  
 Sample Input:
 
