@@ -8,9 +8,10 @@ Sample Input:
      Enter value of b: 20
 
 Sample Output:
-     After swaping 
-     a = 20 
-     b = 10
+     Before swapping
+     a = 20, b = 10
+     After swapping
+     a = 10, b = 20
 
  */
 
@@ -23,18 +24,20 @@ int main(){
      scanf("%d", &a);
      printf("Enter value of b: ");
      scanf("%d", &b);
+     
+     printf("Before swapping\na = %d, b = %d\n", a, b);
 
      a = a+b;  
      b = a-b; 
-     a = a-b; 
+     a = a-b;
+     
      // another methon 
      // a = a*b;
      // b = a/b;
      // a = a/b;
 
 
-
-     printf("After swaping \na = %d\nb = %d\n", a, b);
+     printf("After swaping\na = %d, b = %d\n", a, b);
 
      return 0;
 }
