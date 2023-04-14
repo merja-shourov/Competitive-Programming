@@ -1,32 +1,29 @@
-/**
- * Qeustion-01:Write a C program that prompts the user to insert an integer value, a decimal number and his/her nick name and print the inserted value as output.
- * 
- * Sample Input:
- *   Enter a integer: 10
- *   Enter a decimal value: 10.5
- *   Enter your nick name: Aladdin
- * 
- * Sample Output:
-     Integer: 10
-     Decimal: 10.500000
-     Nickname: Aladdin
- * 
+/*
+ Qeustion-02: Write a program to display the size of different data types in C.
+
+Sample Input: NULL
+  
+Sample Output:
+    The 'int' datatype is            4 bytes
+    The 'unsigned int' data type is  4 bytes
+    The 'short int' data type is     2 bytes
+    The 'long int' data type is      8 bytes
+    The 'long long int' data type is 8 bytes
+    The 'double' data type is        8 bytes
+    The 'float' data type is         4 bytes
+    The 'char' data type is          1 bytes
  */
 
 #include<stdio.h>
 
-int main(){
-     int n;
-     float d;
-     char nickName[10];
-     printf("Enter a integer: ");
-     scanf("%d", &n);
-     printf("Enter a decimal value: ");
-     scanf("%f", &d);
-     printf("Enter your nick name: ");
-     scanf("%s", nickName);
-
-     printf("Integer: %d\nDecimal: %f\nNickname: %s\n", n, d, nickName);
-
-     return 0;
+int main()
+{
+    printf("The 'int' datatype is \t\t %lu bytes\n", sizeof(int));
+    printf("The 'unsigned int' data type is\t %lu bytes\n", sizeof(unsigned int));
+    printf("The 'short int' data type is\t %lu bytes\n", sizeof(short int));
+    printf("The 'long int' data type is\t %lu bytes\n", sizeof(long int));
+    printf("The 'long long int' data type is %lu bytes\n", sizeof(long long int));
+    printf("The 'double' data type is\t %lu bytes\n", sizeof(double));
+    printf("The 'float' data type is\t %lu bytes\n", sizeof(float));
+    printf("The 'char' data type is\t\t %lu bytes\n", sizeof(char));
 }
