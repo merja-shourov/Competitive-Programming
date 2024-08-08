@@ -13,7 +13,7 @@ ilist   = lambda: list(map(int, input().split()))
 # sys.stdout.write(str(ans) + "\n")
 
 for _ in range( inum() ):
-    
+    #code here
 
 
 
