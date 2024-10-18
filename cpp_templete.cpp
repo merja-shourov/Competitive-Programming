@@ -8,11 +8,7 @@ using namespace std;
 #define EPS 1e-5
 
 void solve(){
-    int n; cin >> n;
-    vector<int> v(n);
-    
-    for( int i=0; i<n; i++ ) cin >> v[i];
-    
+        
 }
 
 int32_t main(){
