@@ -1,5 +1,3 @@
-# Competitive Programming
-
 ## Fast Input-Output Java
 A `JAVA` template for faster I/O times. 
 
