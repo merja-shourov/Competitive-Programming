@@ -55,7 +55,7 @@ public class JavaTemplete {
   }
 }
 ```
-## CPP-14 sublime-build
+## C++14 sublime-build for Linux
 
 ```{
 "cmd" : ["g++ -std=c++14 $file_name -o $file_base_name && timeout 4s ./$file_base_name<input.txt>output.txt"],
@@ -65,7 +65,7 @@ public class JavaTemplete {
 }
 ```
 
-## Java sublime-build
+## Java sublime-build for Linux
 ```  { 
   "cmd": ["javac \"$file_name\" && java \"$file_base_name\" <input.txt> output.txt"],
   "shell": true, 
