@@ -1,7 +1,12 @@
 # Competitive Programming
 
-## Java CP Templete
-```
+## Fast Input-Output Java
+A `JAVA` template for faster I/O times. 
+
+### How to use it?
+Copy this template into your local system and write your code using this template to write CP-friendly codes.
+
+```java
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
