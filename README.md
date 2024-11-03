@@ -5,26 +5,30 @@ A `JAVA` template for faster I/O times.
 Copy this template into your local system and write your code using this template to write CP-friendly codes.
 
 ```java
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
-
-import java.util.StringTokenizer;
+import java.io.*;
+import java.util.*;
 
 public class JavaTemplete {
-
   static BufferedReader br;
   static PrintWriter out;
   static StringTokenizer st;
 
+  static void solve() throws IOException {
+    // Write code here
+    
+  }
+
   public static void main(String[] args) throws IOException {
     br = new BufferedReader(new InputStreamReader(System.in));
     out = new PrintWriter(new OutputStreamWriter(System.out));
-    // br = new BufferedReader(new FileReader("in.txt"));
-    // out = new PrintWriter(new FileWriter("out.txt"));
+    // br = new BufferedReader(new FileReader("input.txt"));
+    // out = new PrintWriter(new FileWriter("output.txt"));
 
+    int testCase = 1;
+    // testCase = readInt();
+    while (testCase-- > 0) {
+      solve();
+    }
     out.close();
   }
 
