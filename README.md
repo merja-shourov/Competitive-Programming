@@ -21,9 +21,10 @@ public class JavaTemplete {
   public static void main(String[] args) throws IOException {
     br = new BufferedReader(new InputStreamReader(System.in));
     out = new PrintWriter(new OutputStreamWriter(System.out));
-    // br = new BufferedReader(new FileReader("input.txt"));
-    // out = new PrintWriter(new FileWriter("output.txt"));
-
+    // if (System.getProperty("ONLINE_JUDGE") == null) {
+    //   br = new BufferedReader(new FileReader("input.txt"));
+    //   out = new PrintWriter( new BufferedWriter(new FileWriter("output.txt")));
+    // }
     int testCase = 1;
     // testCase = readInt();
     while (testCase-- > 0) {
