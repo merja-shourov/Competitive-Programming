@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 
 import java.util.StringTokenizer;
 
-public class JavaTemplete {
+public class java_templete {
 
   static BufferedReader br;
   static PrintWriter out;
