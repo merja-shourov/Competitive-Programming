@@ -101,7 +101,7 @@ public class JavaTemplete {
 
 ## Fast I/O for Python
 
-Competetive porgromming `Pytdon` Templete
+Competetive porgromming `Python` Templete
 
 ```python
 import sys
