@@ -1,6 +1,8 @@
 ## Fast I/O C++
+
 A `C++` templete for faster I/O times.
-``` c++
+
+```c++
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -21,7 +23,7 @@ int32_t main(){
     //     freopen("input.txt", "r", stdin);
     //     freopen("output.txt", "w", stdout);
     // #endif
-    
+
     int tc = 1;
     // cin >> tc;
     for( int t=1; t <= tc; t++ ){
@@ -33,9 +35,11 @@ int32_t main(){
 ```
 
 ## Fast Input-Output Java
-A `JAVA` template for faster I/O times. 
+
+A `JAVA` template for faster I/O times.
 
 ### How to use it?
+
 Copy this template into your local system and write your code using this template to write CP-friendly codes.
 
 ```java
@@ -49,7 +53,7 @@ public class JavaTemplete {
 
   static void solve() throws IOException {
     // Write code here
-    
+
   }
 
   public static void main(String[] args) throws IOException {
@@ -94,6 +98,31 @@ public class JavaTemplete {
   }
 }
 ```
+
+## Fast I/O for Python
+
+Competetive porgromming `Pytdon` Templete
+
+```python
+import sys
+# import io, os,
+# import math, functools, collections
+# import bisect, heapq, numpy
+# alphabets = "abcdefghijklmnopqrstuvwxyz"
+
+
+input   = lambda: sys.stdin.readline().strip()
+inum    = lambda: int(input())
+imap    = lambda: map(int,input().split())
+ilist   = lambda: list(map(int, input().split()))
+
+# sys.stdout.write(str(ans) + "\n")
+
+for _ in range( inum() ):
+    #code here
+
+```
+
 ## C++14 sublime-build for Linux
 
 ```{
@@ -105,11 +134,11 @@ public class JavaTemplete {
 ```
 
 ## Java sublime-build for Linux
-```  { 
+
+```{
   "cmd": ["javac \"$file_name\" && java \"$file_base_name\" <input.txt> output.txt"],
-  "shell": true, 
-  "file_regex": "^(...*?):([0-9]*):?([0-9]*)", 
-  "selector": "source.java" 
+  "shell": true,
+  "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+  "selector": "source.java"
 }
 ```
-
