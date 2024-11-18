@@ -136,7 +136,8 @@ for _ in range( inum() ):
 
 ## Java sublime-build for Linux
 
-```{
+```
+{
   "cmd": ["javac \"$file_name\" && java \"$file_base_name\" <input.txt> output.txt"],
   "shell": true,
   "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
